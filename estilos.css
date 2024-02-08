@@ -1,0 +1,57 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2? family= Inter:wght@100 & display=swap');
+
+:root{
+    --cor01:#1F50E0;
+    --cor02:#0ca6d138;
+    --cor03:#42548B;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body{
+    background-color: var(--cor02);
+    font-family:'Inter', sans-serif;
+}
+ header h1{
+    margin: 6px;
+    text-align: center;
+    padding: 50px;
+
+ }
+
+
+
+ #perfil{
+    display: flex;
+    height: 40vh;
+    width: 70vw;
+
+ }
+ #comeco{
+    display:flex;
+    height:35vh;
+    width: 50vw;
+    background: url(imagens/fotoperfil.jpeg) top center no-repeat ;
+    border-radius: 100%;
+    background-size: contain;
+    position: absolute;
+    
+    top: 32%;
+    left: 85%;
+
+    transform: translate(-50%, -50%);
+
+
+ }
+ 
+    
+ 
+
+ 
+
+ 
