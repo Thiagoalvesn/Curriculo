@@ -33,15 +33,16 @@ body{
 
  }
  #comeco{
-    display:flex;
+    display:block;
     height:35vh;
-    width: 50vw;
+    width: 500px;
     background: url(imagens/fotoperfil.jpeg) top center no-repeat ;
-    border-radius: 100%;
-    background-size: contain;
+    border-radius: 50%;
+    
+    background-size: cover;
     position: absolute;
     
-    top: 32%;
+    top: 29%;
     left: 85%;
 
     transform: translate(-50%, -50%);
