@@ -1,58 +1,56 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2? family= Inter:wght@100 & display=swap');
-
-:root{
-    --cor01:#1F50E0;
-    --cor02:#0ca6d138;
-    --cor03:#42548B;
-}
-
 *{
     margin: 0px;
-    padding: 0px;
-
+    padding:0px;
 }
-
 body{
-    background-color: var(--cor02);
-    font-family:'Inter', sans-serif;
+    background-color: darkgray;
 }
- header h1{
-    margin: 6px;
-    text-align: center;
-    padding: 50px;
+main{
+    height:100vh;
+    width: 75vw;
+    background-color: rgb(243, 243, 250);
+    margin-left: 250px;
+}
+#header{
+    
+    height: 45vh;
+    padding: 10px;
+    background: url(imagens/fotoperfil.jpeg) top right no-repeat ;
+    background-color: rgb(16, 6, 158);
+    color: white;
+    text-indent:380px;
+   
+}
+h2{
+    padding: 15px;
+    font: bolder;
+}
+p{
+    padding: 10px;
+}
 
- }
-
-
-
- #perfil{
-    display: flex;
-    height: 40vh;
-    width: 70vw;
-
- }
- #comeco{
-    display:block;
-    height:35vh;
-    width: 500px;
-    background: url(imagens/fotoperfil.jpeg) top center no-repeat ;
+nav{
+    width: 35vw;
+    margin: 70px;
+    padding: 10px;
+    
+}
+ 
+img{
+    width: 60px;
     border-radius: 50%;
-    
-    background-size: cover;
-    position: absolute;
-    
-    top: 29%;
-    left: 85%;
-
-    transform: translate(-50%, -50%);
-
-
- }
- 
-    
- 
-
- 
-
- 
+    justify-content: center;
+    border: 1px solid rgba(0, 0, 0, 0.514);
+    transition: 0.2s;
+}
+#info{
+    display: flex;
+    margin: 60px;
+    height: 15vh;
+    background-color: rgb(16, 6, 158);
+    color: white;
+    align-items: center;
+    justify-content: space-around;
+   
+}
